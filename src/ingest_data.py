@@ -23,7 +23,8 @@ async def get_messages(channel_name, limit=100):
     df = pd.DataFrame(messages)
     if not os.path.exists('raw_data'):
         os.makedirs('raw_data')
-    df.to_csv('raw_data/messages.csv', index=False)
+    df.to_csv('raw_data/messages.csv', index=False) 
+
     
     return df
 
