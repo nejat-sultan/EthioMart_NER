@@ -1,1 +1,7 @@
-"xlm-roberta-base/" "models/" 
+xlm-roberta-base/
+models/
+*.bin
+*.h5
+*.tar.gz
+*.zip
+*.csv
