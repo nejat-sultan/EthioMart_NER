@@ -1,4 +1,5 @@
-xlm-roberta-base/
+xlm-roberta-base/*
+!xlm-roberta-base/pytorch_model.bin
 models/
 *.bin
 *.h5
